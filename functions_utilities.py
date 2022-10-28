@@ -237,7 +237,7 @@ def makereceipt(libbookname, libauthor, lissueddate, lreturnexp, lissuedby, liss
         pdf.text(6,8,"You have been charge for late return of book by {} days.".format(delta.days))
     else:
         pdf.text(8,8,"You have return book on time")
-    pdf.text(9,9,"Total fine:"+ str(fine))
+    pdf.text(9,9,"Total fine: Rs"+ str(fine))
     # giving name to pdf and creating it in working directory
     pdf.output("receipts/{}{}.pdf".format(lprn,lissuedby))
     # opening receipts
