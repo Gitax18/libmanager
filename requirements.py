@@ -1,7 +1,7 @@
 import os
-import mysql.connector as ms
 
-os.system('cmd /c "pip install fpdf2 & pip install tkinter & pip install mysql.connector"')
+os.system('cmd /c "pip install fpdf2 & pip install mysql.connector"')
+import mysql.connector as ms
 
 # connecting sql database and creating cursor
 
