@@ -200,10 +200,14 @@ def makereceipt(libbookname, libauthor, lissueddate, lreturnexp, lissuedby, liss
     pdf.add_page()
     # making page border using rectangle function
     pdf.rect(1,1,width-2, height-6)
-
-    pdf.add_font('alger', '', "C:\\Windows\\Fonts\\ALGER.ttf")
-    pdf.set_font('alger', '', 23)
-    pdf.text(5.5,2,'NATIONAL PUBLIC LIBRARY')
+    try:
+        pdf.add_font('alger', '', "C:\\Windows\\Fonts\\ALGER.ttf")
+        pdf.set_font('alger', '', 23)
+        pdf.text(5.5,2,'NATIONAL PUBLIC LIBRARY')
+    except:
+        pdf.add_font('Algerian Regular', '', "C:\\Windows\\Fonts\\Algerian Regular.ttf")
+        pdf.set_font('Algerian Regular', '', 23)
+        pdf.text(5.5,2,'NATIONAL PUBLIC LIBRARY')
     pdf.set_font('times', "", 16)
     pdf.text(8.4,2.6,"Receipt for late fine")
     # personal details
