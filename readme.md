@@ -1,14 +1,20 @@
-
-# Hi, I'm Gitanshu! 👋
-### Again with a new project. 👍
-____
-# LIBMANGER
+# LIBMANGER: library management software 📚 
 
 LIBMANAGER is a library management software which ease the taking record of books borrowers. It fully automates the record taking and receipt generating tasks. It is very easy to use and best application for schools, colleges and public libraries.
 
 This project is open source and written in python tkinter module.
 
-## Getting Started
+## Project Overview 📸
+some screenshots of the projects.
+
+- Home window
+<img src='images/main application.png' height= 150px border=2px>
+- data window 
+<img src='images/data.png' height= 150px border=2px>
+- receipt (pdf)
+<img src='images/receipt.png' height= 150px border= 2px>
+
+## Getting Started 💁
 
 After downloading this project open XAMPP and start the APACHE server and MYSQL. Then open cmd in project directory and write the following command.
 
@@ -22,7 +28,7 @@ After this command to start the project write following command.
     start app.py
 ```
 
-## About files
+## About files 📁
 
 ### Requirements.py
 This file is the most important as this file is like a setup file of the project. This is run once file it means this should be runs only one time on the machine and it will download all the dependencies for the project.
@@ -41,4 +47,4 @@ https://fontsgeek.com/fonts/Algerian-Regular
 
 ## Authors
 
-- [@Gitanshu](https://www.github.com/gitanshu18)
+- [@Gitanshu](https://www.github.com/Gitax18)
